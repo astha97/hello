@@ -1,0 +1,253 @@
+.Outer_container{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    margin: 0px auto;
+    min-height: 100vh;
+
+
+}
+.Outer_container_content{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    
+
+}
+.Outer_container_navigation{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+}
+/* .content__center{
+    z-index: 2;
+} */
+.content__left_side{
+   
+    background-color: aliceblue;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr */
+}
+#hover_show{
+    display: none;
+    left: -16px;
+    top: -35px;
+    font-size: 45px;
+    color:#CDCDCD;
+    color:-50%;
+       
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+
+}
+a:hover{
+    font-size: 20px;
+    color: purple;
+
+}
+a:hover #hover_show {
+   display: block;
+    position: relative;
+    z-index: 1;
+    
+
+    
+}
+
+.content__center{
+    
+    /* padding-top: 10%;
+    padding-left: 39%; */
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    right: 62px;
+    top: 29px;
+
+    
+}
+
+.content__right_side{
+    position: relative;
+    right: 160px;
+    
+
+}
+.line{
+    width: 200px;
+	border-top: 4px solid black
+}
+p::before {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 20px;
+    background-color: red
+    content "hello";
+
+
+  }
+  p {
+    position: relative;
+    top: 15px;
+    width: 100%; 
+    font-size: 14px;
+    word-spacing: 2px;
+    /* text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;  */
+ } 
+ 
+ /* p span { 
+     background:#fff; 
+     padding:0 10px; 
+ } */
+.right_side__image{
+    width: 384px;
+    /* right: 48px; */
+    height: 253px;
+    border-radius: 50%;
+}
+/* .right_side__image{
+    position: absolute;
+    padding: 65px;
+
+} */
+/* .content__left_side{
+
+} */
+.Outer_container_footer{
+
+    background-color: black;
+    display: inline;
+    
+
+}
+.left_side__links{
+    display: grid;
+    grid-auto-rows: 28px;
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+    left: 157px;
+    
+}
+.navigation__content{
+    text-align: center;
+    background-color: aliceblue;
+}    
+.navigation__icons{
+    position: relative;
+    right: 29px;
+    padding-top: 20px;
+
+}
+
+.facebook{
+    height: 15px;
+    width: 15px;
+}
+.twitter{
+    height: 15px;
+    width: 15px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+}
+.linkedin{
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+.behance{
+    height: 20px;
+    width: 20px;
+}
+.center__button{
+    
+    padding: 10px 20px;
+    border: 0;
+    background-color: purple;
+    color: white;
+    /* font-weight: bold; */
+    font-family: Playfair;
+    width: 139px;
+    border-radius: 13px;
+    height: 44px;
+    position: relative;
+    top: 23px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+}
+
+   .prospect{
+       margin: 0px;
+   }
+   .best{
+       margin: 0px;
+       margin-bottom: 10px;
+       padding-top: 20px;
+   }
+   .trust{
+       font: outline;
+   }
+   .para{
+       padding-bottom: 25px;
+   }
+h1{
+    font-size: 44px;
+    font-family: Playfair;
+}
+.trusted{
+    font-size: small;
+    color: white;
+    padding-left: 98px;
+    border: 0px;
+    margin-top: 20px;
+   
+    
+}
+
+
+.ab{
+    height: 40px;
+    width: 40px;
+}
+.text{
+    height: 40px;
+    width:40px;
+    color: white;
+}
+
+ @media (max-width:401px) {
+     .Outer_container{
+         width: 30%;
+         
+     }
+ }
+/* @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .Outer_container {
+      width: 80%;
+    }
+  }*/
+ /* @media (max-width:767px) {
+    .Outer_container{
+        width: 100%;
+    }
+    .Outer_container_content{
+        display: grid;
+        grid-template-rows: 1fr 6fr 1fr;
+        grid-auto-columns: 200px;
+    }
+}   */
+
+/*@media  screen and (min-width: 768px) {
+    .trusted .alstom{
+       
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    
+
+  }/*
